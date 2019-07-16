@@ -12,7 +12,7 @@ def open_file(fn):
 
 def type_out_text_to_line(text, end="", sep="", line_chars=None, blink=0.2):
     if not text:
-        return "wer"
+        return ""
 
     c = line_chars
     for i, j in enumerate(text):
